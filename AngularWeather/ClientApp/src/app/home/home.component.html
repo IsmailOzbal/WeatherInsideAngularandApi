@@ -1,0 +1,42 @@
+<h1>OpenWeatherMap Forecast Application </h1>
+<hr />
+<form [formGroup]="WeatherForm" (ngSubmit)="onSubmit()">
+  <div class="panel panel-danger">
+    <div class="panel-body">
+
+      <div class="form-group">
+        Weather Information
+      </div>
+      <div class="form-group">
+        <label for="sel1">Select list:</label>
+        <select class="form-control" formControlName="CityInfo" placeholder="Select city">
+          <option *ngFor="let city of cities" value="{{city}}">{{ city }}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <button class="btn btn-primary" color="primary">Get Forecast</button>
+      </div>
+    </div>
+  </div>
+</form>
+<div class="panel panel-danger" *ngIf="selectedCity">
+  <div class="panel-body">
+    <div class="form-group">
+      Weather Information {{selectedCity}}
+    </div>
+    <div class="form-group">
+      <div class="panel-body">
+        <div class="col-md-6">Longitude : {{weather.coord.lon}}</div>
+        <div class="col-md-6">Latitude  : {{weather.coord.lat}}</div>
+        <div class="col-md-6">Main : {{weather.weather[0].main}}</div>
+        <div class="col-md-6">Description  : {{weather.weather[0].description}}</div>
+        <div class="col-md-6">Humidity : {{weather.main.humidity}}</div>
+        <div class="col-md-6">Pressure  : {{weather.main.pressure}}</div>
+        <div class="col-md-6">Temperature : {{weather.main.temp}}</div>
+        <div class="col-md-6">Temperature Maximum  : {{weather.main.temp_max}}</div>
+        <div class="col-md-6">Temperature Minimum  : {{weather.main.temp_min}}</div>
+      </div>
+    </div>
+  </div>
+</div>

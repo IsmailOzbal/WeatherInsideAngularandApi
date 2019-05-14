@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Libs", "Weather.Libs\Weather.Libs.csproj", "{7F5321B7-572A-44D4-9C31-2AE936B81488}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularWeather", "AngularWeather\AngularWeather.csproj", "{98E95350-B1B9-4B95-9631-2DABF2815EDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5321B7-572A-44D4-9C31-2AE936B81488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5321B7-572A-44D4-9C31-2AE936B81488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5321B7-572A-44D4-9C31-2AE936B81488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5321B7-572A-44D4-9C31-2AE936B81488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E95350-B1B9-4B95-9631-2DABF2815EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E95350-B1B9-4B95-9631-2DABF2815EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E95350-B1B9-4B95-9631-2DABF2815EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E95350-B1B9-4B95-9631-2DABF2815EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4C896C6-BAB6-4E41-9A00-AA3CE2852BAE}
+	EndGlobalSection
+EndGlobal

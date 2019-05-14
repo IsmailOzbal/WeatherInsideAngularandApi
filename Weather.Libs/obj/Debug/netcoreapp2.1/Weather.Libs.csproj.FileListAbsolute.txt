@@ -1,0 +1,9 @@
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\bin\Debug\netcoreapp2.1\Weather.Libs.deps.json
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\bin\Debug\netcoreapp2.1\Weather.Libs.dll
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\obj\Debug\netcoreapp2.1\Weather.Libs.csprojAssemblyReference.cache
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\obj\Debug\netcoreapp2.1\Weather.Libs.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\obj\Debug\netcoreapp2.1\Weather.Libs.AssemblyInfoInputs.cache
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\obj\Debug\netcoreapp2.1\Weather.Libs.AssemblyInfo.cs
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\bin\Debug\netcoreapp2.1\Weather.Libs.pdb
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\obj\Debug\netcoreapp2.1\Weather.Libs.dll
+C:\Users\Owner\source\repos\WeatherApi\Weather.Libs\obj\Debug\netcoreapp2.1\Weather.Libs.pdb
